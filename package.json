@@ -1,0 +1,20 @@
+{
+  "name": "module10",
+  "version": "1.0.0",
+  "description": "The purpose of this assignment is to build a node.js application that takes in data on employees and subsequently generates an HTML webpage that shows a summary of each person. There will also be tests avaliable to the user as testing is essential to the sustainability and functionality of the code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kdenn1/module-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kdenn1/module-10/issues"
+  },
+  "homepage": "https://github.com/Kdenn1/module-10#readme"
+}
