@@ -56,6 +56,27 @@ if(role === "Engineer") {
 } else {
     roleInfo = "phone number";
 }
+inquirer.prompt([{
+    message: `Please Enter your team member's ${roleInfo}`,
+    name: "roleInfo"
+},
+{
+    type: "list",
+    message: "Do you need to add more team members?",
+    choices: [
+        "yes",
+        "no"
+    ],
+    name: "moreMembers"
+}])
+//if else statment to add more members or be done generating employee list 
+.then(function({roleInfo, moreMembers}){
+    let newMember;
+    //if statement for engineer 
+    if (role === "Engineer") {
+        newMember = new Engineer(name, id, email, roleInfo);
+    }
+})
 })
 
 
