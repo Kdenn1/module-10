@@ -44,4 +44,20 @@ function addMember() {
         ],
         name: "role"
     }])
+
+// .then function to determine what happens after user selects one of the options 
+.then(function({name, role, ID, email}){
+let roleInfo = "";
+//if statement for Engineer, Intern or finish outcomes  
+if(role === "Engineer") {
+    roleInfo = "Github Username";
+} else if (role === "Intern") {
+    roleInfo = "school name";
+} else {
+    roleInfo = "phone number";
+}
+})
+
+
+
 }
